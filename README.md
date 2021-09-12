@@ -9,7 +9,7 @@
 ## Hanwckf Padavan
 More on [Hanwckf](https://github.com/hanwckf/rt-n56u/)
 
-* 当前最新版本:K2P_nano-5.0.21.021623.trx  最后编译时间: 2021-02-16 23:28:28  下载地址: [奶牛快传](https://cowtransfer.com/s/d5581ffb91ce48)  [WeTransfer](https://we.tl/t-Sl1YNcUI6A)
+* 当前最新版本:K2P_nano.21.072313.trx  最后编译时间: 2021-07-23 13:52:48  下载地址: [奶牛快传](https://cowtransfer.com/s/061c5117923846)  [WeTransfer](https://we.tl/t-XOpfhNjubM)
 
 * 当前最新版本:PSG1218_nano.2021021716.trx  最后编译时间: 2021-02-17 16:27:55  下载地址: [奶牛快传](https://cowtransfer.com/s/0ea2592cc4214a)  [WeTransfer](https://we.tl/t-tsag85Vpt7)
 
@@ -35,11 +35,11 @@ More on [ChongshengB](https://github.com/chongshengB/rt-n56u)
 
 
 
-* 当前最新版本:K2P-5.0.21.021400.trx  最后编译时间: 2021-02-14 00:29:22  下载地址: [奶牛快传](https://cowtransfer.com/s/88378671974440)  [WeTransfer](https://we.tl/t-bWk4akkWG5)
+* 当前最新版本:K2P-5.0.21.081802.trx  最后编译时间: 2021-08-18 02:50:13  下载地址: [奶牛快传](https://cowtransfer.com/s/b9aeec828d8f41)  [WeTransfer](https://we.tl/t-fxmZFq8k0s)
 
-* 当前最新版本:NEWIFI3.21.021400.trx  最后编译时间: 2021-02-14 00:43:23  下载地址: [奶牛快传](https://cowtransfer.com/s/c988c871523c41)  [WeTransfer](https://we.tl/t-9tC1fQnZq1)
+* 当前最新版本:NEWIFI3.21.040813.trx  最后编译时间: 2021-04-08 14:14:07  下载地址: [奶牛快传](https://cowtransfer.com/s/96ca91da82394e)  [WeTransfer](https://we.tl/t-XAMY1LqIoH)
 
-* 当前最新版本:RM2100.21.021400.trx  最后编译时间: 2021-02-14 00:32:29  下载地址: [奶牛快传](https://cowtransfer.com/s/280aa7c68c1c44)  [WeTransfer](https://we.tl/t-FvLQ0GA7la)
+* 当前最新版本:RM2100.21.040813.trx  最后编译时间: 2021-04-08 14:06:51  下载地址: [奶牛快传](https://cowtransfer.com/s/dbe90275064643)  [WeTransfer](https://we.tl/t-77BXNIqKpJ)
 
 * 当前最新版本:K2P_nano-5.0.21.021001.trx  最后编译时间: 2021-02-10 02:05:16  下载地址: [奶牛快传](https://cowtransfer.com/s/e9d11b47439048)  [WeTransfer](https://we.tl/t-LVAcqgYTaI)
 
