@@ -37,7 +37,7 @@ jobs:
           sudo apt install libtool-bin gperf python-docutils autopoint gettext zip
       - name: Clone source code
         run: |
-          git clone --depth=1 https://github.com/kk599/rt-n56u /opt/rt-n56u
+          git clone --depth=1 https://github.com/keke1023/Padavan /opt/rt-n56u
           cd /opt/rt-n56u/toolchain-mipsel
           sh dl_toolchain.sh
           mkdir -p /opt/images/
@@ -63,8 +63,8 @@ jobs:
 
           sed -i '/CONFIG_FIRMWARE_INCLUDE_SFE/d' configs/templates/$TNAME.config #删除配置项SFE加速
           echo "CONFIG_FIRMWARE_INCLUDE_SFE=y" >> configs/templates/$TNAME.config #集成SFE加速
-          sed -i '/CONFIG_FIRMWARE_WIFI2_DRIVER/d' configs/templates/$TNAME.config
-          echo "CONFIG_FIRMWARE_WIFI2_DRIVER=2.7" >> configs/templates/$TNAME.config
+          #sed -i '/CONFIG_FIRMWARE_WIFI2_DRIVER/d' configs/templates/$TNAME.config
+          #echo "CONFIG_FIRMWARE_WIFI2_DRIVER=2.7" >> configs/templates/$TNAME.config
           sed -i '/CONFIG_FIRMWARE_INCLUDE_REDSOCKS/d' configs/templates/$TNAME.config
           echo "CONFIG_FIRMWARE_INCLUDE_REDSOCKS=n" >> configs/templates/$TNAME.config
           sudo ./clear_tree
