@@ -63,8 +63,8 @@ jobs:
 
           sed -i '/CONFIG_FIRMWARE_INCLUDE_SFE/d' configs/templates/$TNAME.config #删除配置项SFE加速
           echo "CONFIG_FIRMWARE_INCLUDE_SFE=y" >> configs/templates/$TNAME.config #集成SFE加速
-          #sed -i '/CONFIG_FIRMWARE_WIFI2_DRIVER/d' configs/templates/$TNAME.config
-          #echo "CONFIG_FIRMWARE_WIFI2_DRIVER=2.7" >> configs/templates/$TNAME.config
+          sed -i '/CONFIG_FIRMWARE_WIFI2_DRIVER/d' configs/templates/$TNAME.config
+          echo "CONFIG_FIRMWARE_WIFI2_DRIVER=2.7" >> configs/templates/$TNAME.config
           sed -i '/CONFIG_FIRMWARE_INCLUDE_REDSOCKS/d' configs/templates/$TNAME.config
           echo "CONFIG_FIRMWARE_INCLUDE_REDSOCKS=n" >> configs/templates/$TNAME.config
           sudo ./clear_tree
