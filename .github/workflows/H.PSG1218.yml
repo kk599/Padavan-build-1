@@ -78,6 +78,11 @@ jobs:
           echo "CONFIG_FIRMWARE_INCLUDE_REDSOCKS=n" >> .config
           sed -i '/CONFIG_FIRMWARE_INCLUDE_ADBYBY/d' .config
           echo "CONFIG_FIRMWARE_INCLUDE_ADBYBY=y" >> .config
+          sed -i '/CONFIG_FIRMWARE_INCLUDE_DOGCOM/d' .config
+          sed -i '/CONFIG_FIRMWARE_INCLUDE_MINIEAP/d' .config
+          sed -i '/CONFIG_FIRMWARE_INCLUDE_NJIT_CLIENT/d' .config
+          sed -i '/CONFIG_FIRMWARE_INCLUDE_NAPT66/d' .config
+          sed -i '/CONFIG_FIRMWARE_INCLUDE_VLMCSD/d' .config
           sudo ./clear_tree
           sudo ./build_firmware_modify $TNAME 0
           sudo mv -f images/*.trx /opt/images/${TNAME}_Hanwckf_${{ steps.current-time.outputs.formattedTime }}.trx
