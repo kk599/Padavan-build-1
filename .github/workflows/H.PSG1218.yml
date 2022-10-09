@@ -82,7 +82,9 @@ jobs:
           sed -i '/CONFIG_FIRMWARE_INCLUDE_MINIEAP/d' .config
           sed -i '/CONFIG_FIRMWARE_INCLUDE_NJIT_CLIENT/d' .config
           sed -i '/CONFIG_FIRMWARE_INCLUDE_NAPT66/d' .config
-          sed -i '/CONFIG_FIRMWARE_INCLUDE_VLMCSD/d' .config
+          sed -i '/CONFIG_FIRMWARE_INCLUDE_TCPDUMP/d' .config
+          sed -i '/CONFIG_FIRMWARE_INCLUDE_LRZSZ/d' .config
+          sed -i '/CONFIG_FIRMWARE_INCLUDE_IPERF3/d' .config
           sudo ./clear_tree
           sudo ./build_firmware_modify $TNAME 0
           sudo mv -f images/*.trx /opt/images/${TNAME}_Hanwckf_${{ steps.current-time.outputs.formattedTime }}.trx
