@@ -33,8 +33,8 @@ jobs:
           DEBIAN_FRONTEND: noninteractive
           token: ${{ secrets.R_TOKEN }}
         run: |
-          sudo apt update
-          sudo apt install libtool-bin gperf python-docutils autopoint gettext zip
+          sudo apt-get update
+          sudo apt-get install -y libtool-bin gperf python3-docutils autopoint gettext ccache
       - name: Clone source code
         run: |
           git clone --depth=1 https://github.com/hanwckf/rt-n56u /opt/rt-n56u
